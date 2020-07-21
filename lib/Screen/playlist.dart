@@ -1,16 +1,21 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:risemusic/utils/CustomWidgetbutton/customwidgetbtn.dart';
+import 'package:risemusic/utils/coreofcolor/corecolors.dart';
 
 class PlayList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.indigo[100],
+        backgroundColor: AppColors.mainColor,
         body: Stack(
           children: <Widget>[
-            Center(
-              child: Text('PlayList'),
-            )
+            CustomButtonWidget(
+              child: Icon(
+                Icons.favorite,
+              ),
+            ),
           ],
         ),
       ),
