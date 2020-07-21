@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:risemusic/Screen/dashScreen.dart';
-import 'package:risemusic/Screen/forgotPassword.dart';
-import 'package:risemusic/Screen/signUp.dart';
+
+import 'file:///C:/Users/Muhammad%20Asif/risemusic/lib/Screen/LoginandSignUp/signUp.dart';
+import 'file:///C:/Users/Muhammad%20Asif/risemusic/lib/Screen/dashScreen/dashScreen.dart';
+import 'file:///C:/Users/Muhammad%20Asif/risemusic/lib/Screen/forgetpassword/forgotPassword.dart';
 
 class Login extends StatefulWidget {
   @override

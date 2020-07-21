@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'Screen/SplachScreen.dart';
+
+import 'Screen/LoginandSignUp/SplachScreen.dart';
 
 void main() {
   runApp(MyApp());

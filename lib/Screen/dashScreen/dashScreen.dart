@@ -1,13 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:risemusic/Screen/MusicPlayer.dart';
-import 'package:risemusic/Screen/albums.dart';
-import 'package:risemusic/Screen/artists.dart';
-import 'package:risemusic/Screen/homeScreen.dart';
-import 'package:risemusic/Screen/playlist.dart';
+import 'package:risemusic/Screen/Album/albums.dart';
+import 'package:risemusic/Screen/Musicplayer/MusicPlayer.dart';
+import 'package:risemusic/Screen/Musicplayer/playlist.dart';
 
-import 'drawerScreen.dart';
+import 'file:///C:/Users/Muhammad%20Asif/risemusic/lib/Screen/Artist/artists.dart';
+import 'file:///C:/Users/Muhammad%20Asif/risemusic/lib/Screen/HomeScreen/homeScreen.dart';
+
+import '../DrawerScreen/drawerScreen.dart';
 
 class DashScreen extends StatefulWidget {
   @override
