@@ -11,10 +11,32 @@ class PlayList extends StatelessWidget {
         backgroundColor: AppColors.mainColor,
         body: Stack(
           children: <Widget>[
-            CustomButtonWidget(
-              child: Icon(
-                Icons.favorite,
-              ),
+            Column(
+              children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      CustomButtonWidget(
+                          child:Icon(Icons.favorite,
+                            color: AppColors.styleColor,
+
+                          ) ),
+                      CustomButtonWidget(
+                          child:Icon(Icons.favorite,
+                            color: AppColors.styleColor,
+
+                          ) ),
+                      CustomButtonWidget(
+                          child:Icon(Icons.menu,
+                            color: AppColors.styleColor,
+
+                          ) ),
+                    ],
+                  ),
+                )
+              ],
             ),
           ],
         ),
