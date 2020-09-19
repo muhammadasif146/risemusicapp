@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 
 // ignore: must_be_immutable
-class SwiperCards extends StatelessWidget {
+class CustomSwiperCards extends StatelessWidget {
   //image list
 
   //tittle list

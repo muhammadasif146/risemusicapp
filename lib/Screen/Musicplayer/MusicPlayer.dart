@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:risemusic/utils/CustomWidget/customprogressbar.dart';
 import 'package:risemusic/utils/CustomWidget/customwidgetbtn.dart';
 
 import 'package:risemusic/utils/coreofcolor/corecolors.dart';
@@ -57,9 +58,31 @@ class MusicPlayer extends StatelessWidget {
                  //     MaterialPageRoute(builder: (_)=>MusicPlayer()
                  //     ));
                },
+             ),
+             Text('Flute',
+             style: TextStyle(
+               color: AppColors.styleColor,
+               fontSize: 32,
+               fontWeight: FontWeight.bold,
+               height: 2
 
              ),
+             ),
+             Text('Flute Kuisa music',
+               style: TextStyle(
+                 color: AppColors.styleColor.withAlpha(90),
+                 fontSize: 16,
+               //  fontWeight: FontWeight.bold,
+
+               ),
+             ),
              Expanded(child: SizedBox()),
+             Padding(
+               padding: const EdgeInsets.symmetric(horizontal: 24),
+               child: CustomProgressbar(
+
+               ),
+             ),
              Padding(
                padding: const EdgeInsets.symmetric(horizontal: 40),
                child: Row(

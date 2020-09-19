@@ -36,7 +36,7 @@ class HomeScreen extends StatelessWidget {
                               borderRadius:
                                   BorderRadius.all(Radius.circular(15)),
                               color: Colors.white),
-                          child: SwiperCards(),
+                          child: CustomSwiperCards(),
                         ),
                       ),
 
