@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:risemusic/utils/CustomWidgetbutton/customwidgetbtn.dart';
+import 'package:risemusic/utils/CustomWidget/customwidgetbtn.dart';
+
 import 'package:risemusic/utils/coreofcolor/corecolors.dart';
 
 class MusicPlayer extends StatelessWidget {
@@ -13,6 +14,7 @@ class MusicPlayer extends StatelessWidget {
         children: <Widget>[
          Column(
            children: [
+             SizedBox(height: 25,),
              Padding(
                padding: const EdgeInsets.all(12),
                child: Row(
@@ -57,9 +59,47 @@ class MusicPlayer extends StatelessWidget {
                },
 
              ),
-             Row(
-
-             )
+             Expanded(child: SizedBox()),
+             Padding(
+               padding: const EdgeInsets.symmetric(horizontal: 40),
+               child: Row(
+                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                   children: [
+                     CustomButtonWidget(
+                       size: 80,
+                       boederWidth: 5,
+                       onTap: (){
+                         // Navigator.of(context).pop();
+                       },
+                       child: Icon(Icons.fast_rewind,
+                         color: AppColors.styleColor,
+                       ),
+                     ),
+                     CustomButtonWidget(
+                       size: 80,
+                       boederWidth: 5,
+                       isActive: true,
+                       onTap: (){
+                         // Navigator.of(context).pop();
+                       },
+                       child: Icon(Icons.pause,
+                         color: Colors.white,
+                       ),
+                     ),
+                     CustomButtonWidget(
+                       size: 80,
+                       boederWidth: 5,
+                       onTap: (){
+                         // Navigator.of(context).pop();
+                       },
+                       child: Icon(Icons.fast_forward,
+                         color: AppColors.styleColor,
+                       ),
+                     ),
+                   ],
+               ),
+             ),
+             SizedBox(height: 25,),
            ],
          ),
         ],

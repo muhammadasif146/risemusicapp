@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:risemusic/Screen/Musicplayer/MusicPlayer.dart';
-import 'package:risemusic/utils/CustomWidgetbutton/customwidgetbtn.dart';
+import 'package:risemusic/utils/CustomWidget/customwidgetbtn.dart';
 import 'package:risemusic/utils/Modelclass/musicmodel.dart';
 import 'package:risemusic/utils/coreofcolor/corecolors.dart';
 
